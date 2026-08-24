@@ -96,6 +96,7 @@ public class Calculator implements ActionListener {
     }
 
     public static void main(String[] args) {
+        SwingUtilities.invokeLater(Calculator::new);
     }
 
     @Override
